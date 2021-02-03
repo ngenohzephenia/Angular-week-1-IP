@@ -1,0 +1,21 @@
+<div class="container-fluid">
+<div class="card">
+    <div class="row">
+        <div class="col-md-9">
+<p> Author :{{qoute.name}} on  {{qoute.completeDate|date}} </p>
+<p>{{qoute.description}}</p>
+<p> submited by :{{qoute.supmit}}</p>
+<p>downvotes: {{numberofdownvotes}}</p>
+<p>upvotes: {{numberofupvotes}}</p>
+
+ <P>This qoutes will be completed on {{qoute.completeDate|date}} date</P> 
+</div>
+<div class="col-md-3"> <br> <br>
+ <div class="d-inline">
+ <button style="background-color:white;" (click)=upvoteclick() class="btn  btn-outline-success " class="pl-12" ><i class="fas fa-thumbs-up fa-2px"></i> </button> <br> <br>
+ <button style="background-color: white"(click)=downvoteclick()  class="btn  btn-outline-info "  class="pl-12" > <i class="fas fa-thumbs-down fa-2px"></i></button> <br> <br>
+ <button  style="background-color: white" (click)= "qouteDelete(true)" class="btn  btn-outline-danger " class="pl-12" > <i class="fa fa-trash fa-2px"></i> </button> 
+</div>
+</div>
+</div>
+</div>
