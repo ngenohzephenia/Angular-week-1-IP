@@ -7,11 +7,11 @@ import { Qoute } from "../qoute";
 })
 export class QouteComponent implements OnInit {
 qoutes :Qoute[] =[
-  new Qoute (1,"Insperational","victor","petience pays but pains", "Emmanuel", new Date(2020,4,6)),
+  new Qoute (1,"Inspirational","vinny","patience pays but pains", "Zephania", new Date(2021,1,1)),
   new Qoute (2,"Love","tripplevic","there is no way to success but success is the way","Bernard", new Date(2020 ,9, 10)),
-  new Qoute (3,"mortivational","manuu","do not boast about tommorrow for you do not know what a day may bring forth","Enock" ,new Date (2000,6,12)),
+  new Qoute (3,"motivational","manuu","do not boast about tommorrow for you do not know what a day may bring forth","Enock" ,new Date (2000,6,12)),
   new Qoute (4,"love","victa","petience pays but bail","Gedion" ,new Date(2001,4,7)),
-  new Qoute (5,"insperational","victa","petience pays but bail" ,"victor",new Date (1990,6,8)),
+  new Qoute (5,"inspirational","victa","patience pays but bail" ,"victor",new Date (1990,6,8)),
 
 
 ]
